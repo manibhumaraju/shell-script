@@ -26,6 +26,9 @@ then
     echo "Git is not installed, going to install"
     dnf install git -y
     VALIDATE $? "Installing Git"
+else
+    echo "Git is already installed, nothing to do.."
+fi
 
 dnf list installed mysql
 
