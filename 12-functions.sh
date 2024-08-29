@@ -37,4 +37,3 @@ then
 else
     echo "MySQL is already installed, nothing to do..."
 fi       
-
