@@ -11,6 +11,7 @@ R="\e[31m"
 G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
+
 CHECK_ROOT(){
     if [ $USERID -ne 0 ]
     then
@@ -29,7 +30,7 @@ VALIDATE(){
     fi
 }
 USAGE(){
-    echo -e "$R USAGE:: $N sudo 16.redirectors.sh package1 package2 ..."
+    echo -e "$R USAGE:: $N sudo 16-redirectors.sh package1 package2 ..."
     exit 1 
 }
 CHECK_ROOT
